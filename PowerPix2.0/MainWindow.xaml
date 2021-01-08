@@ -50,7 +50,7 @@
         <Button x:Name="searchBtn" Content="Search" HorizontalAlignment="Left" Margin="485,104,0,0" VerticalAlignment="Top" Height="28" Width="66" Click="searchBtn_Click"/>
         <TextBox x:Name="searchBox" HorizontalAlignment="Left" Margin="163,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="316" Height="22"/>
         <Image HorizontalAlignment="Left" x:Name="img" Width="331" Height="364" Margin="16,164,0,0" VerticalAlignment="Top" Source="blankimage.png"></Image>
-        <Label x:Name="searchResults" Content="" HorizontalAlignment="Left" Height="32" Margin="165,125,0,0" VerticalAlignment="Top" Width="313" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto" FontSize="18"/>
+        <TextBox x:Name="searchResults" Text="" HorizontalAlignment="Left" Height="25" Margin="165,134,0,0" VerticalAlignment="Top" Width="314" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto" FontSize="18" FontWeight="Bold"/>
 
         <Button x:Name="createSlideBtn" Content="Create Slide" HorizontalAlignment="Left" Margin="559,104,0,0" VerticalAlignment="Top" Height="27" Width="78" Click="createSlideBtn_Click"/>
 

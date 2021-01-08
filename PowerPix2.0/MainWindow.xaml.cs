@@ -48,7 +48,7 @@ namespace PowerPix2._0
             userInput = searchBox.Text;
             if (userInput != "")
             {
-                searchResults.Content = "...searching...";
+                searchResults.Text = "...searching...";
                 string API_KEY = ConfigurationManager.AppSettings["API_KEY"];
                 string CUST_SEARCH_ID = ConfigurationManager.AppSettings["CUST_SEARCH_ID"];
                 var client = new HttpClient();
@@ -56,13 +56,13 @@ namespace PowerPix2._0
                 var myWebRequest = await client.GetStringAsync(url);
                 string req = myWebRequest;
                 results(req);
-                searchResults.Content = "Search Results for: " + userInput;
+                searchResults.Text = userInput;
 
             }
 
             else
             {
-                searchResults.Content = "404 - Not Found";
+                searchResults.Text = "404 - Not Found";
             }
         }
 
@@ -147,7 +147,7 @@ namespace PowerPix2._0
 
             else
             {
-                searchResults.Content = "Cannot create PPT. Please perform a search query";
+                searchResults.Text = "Cannot create PPT. Please perform a search query";
             }
 
         }
