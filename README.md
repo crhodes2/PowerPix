@@ -35,3 +35,14 @@ If you have a Google Account, proceed with signing in. Otherwise, creating a new
 6) Paste your key from your clipboard to the highlighted section. Save the file and close the Notepad.
 
 ![](RackMultipart20200420-4-cpchpr_html_343a00d490db14dd.png)
+
+
+xxx
+
+Developer's Note: The main functionality has been implemented. Additional features include the ability to select multiple images and create a slide show with those selected images. 
+
+Optional: the ability to read bold words and make suggested based on them alone
+
+xxx
+
+
