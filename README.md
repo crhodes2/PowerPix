@@ -39,8 +39,7 @@ If you have a Google Account, proceed with signing in. Otherwise, creating a new
 
 xxx
 
-Developer's Note: The main functionality has been implemented. Additional features include the ability to select multiple images and create a slide show with those selected images. 
-
+Developer's Note: The main functionality has been implemented, including the additional feature to select multiple images and create a slide show with those selected images. 
 Optional: the ability to read bold words and make suggested based on them alone
 
 xxx
